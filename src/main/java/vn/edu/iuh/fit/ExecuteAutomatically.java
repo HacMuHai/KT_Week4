@@ -7,7 +7,7 @@ import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class CmdTest {
+public class ExecuteAutomatically {
     public static void main(String[] args) throws Exception {
         //tạo report
         JDepend depend = new JDepend(new PrintWriter("reports/report.xml"));
